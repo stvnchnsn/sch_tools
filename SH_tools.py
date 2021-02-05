@@ -29,3 +29,5 @@ def noteplayer(note,octave = 4):
 
     # Wait for playback to finish before exiting
     play_obj.wait_done()
+if __name__ == "__main__":
+    noteplayer()
